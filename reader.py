@@ -6,7 +6,7 @@ from enum import Enum
 from threading import Thread
 import logging as log
 import serial
-from mcs_lib_pkg.tag import Tag, TagType, INGECOM_MAP
+from minelert_utils.tag import Tag, TagType, INGECOM_MAP
 
 
 class ReaderType(Enum):
